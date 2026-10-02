@@ -3,7 +3,7 @@
 window.PORTFOLIO = {
   name: "Shahad Alromi",
   initials: "SA",
-  photo: "", // optional: path to a square photo, e.g. "photo.jpg". Empty shows the initials.
+  photo: "logo.webp", // optional: path to a square photo, e.g. "photo.jpg". Empty shows the initials.
   role: "CS student · Web developer",
   location: "Yanbu / Riyadh, Saudi Arabia",
 
