@@ -1,12 +1,13 @@
 :root {
-  --bg: #121218;
-  --panel: #1b1b25;
-  --raised: #232330;
-  --line: #33334a;
-  --text: #ececf6;
-  --muted: #a3a3bd;
-  --accent: #9d93ff;
-  --coral: #ff7d98;
+  --bg: #0a2a48;
+  --panel: #0f3c65;
+  --raised: #164975;
+  --line: #2b5f8e;
+  --text: #fbf7e6;
+  --muted: #b4c6d8;
+  --accent: #fff2ba;
+  --coral: #fff2ba;
+  --on-accent: #0f3c65;
 
   --display: "Bricolage Grotesque", system-ui, sans-serif;
   --body: "Instrument Sans", system-ui, sans-serif;
@@ -81,7 +82,7 @@ button {
   height: 76px;
   border-radius: 20px;
   background: linear-gradient(140deg, var(--accent), var(--coral));
-  color: #14141c;
+  color: var(--on-accent);
   font-family: var(--display);
   font-weight: 700;
   font-size: 28px;
@@ -355,7 +356,7 @@ button {
 .filters button[aria-pressed="true"] {
   background: var(--accent);
   border-color: var(--accent);
-  color: #14141c;
+  color: var(--on-accent);
 }
 
 .grid {
