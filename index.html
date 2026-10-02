@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <meta name="description" content="Software developer portfolio — selected projects, skills and contact.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#work">Skip to work</a>
+
+  <header class="top">
+    <a class="top__name" href="#" data-bind="name"></a>
+    <nav class="top__nav" aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="hero__meta"><span data-bind="role"></span> · <span data-bind="location"></span></p>
+      <h1 class="hero__name" data-bind="name"></h1>
+      <p class="hero__intro" data-bind="intro"></p>
+      <div class="hero__actions">
+        <a class="btn btn--solid" href="#work">See the work</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="work" class="block">
+      <h2 class="block__title">Work</h2>
+      <p class="block__note">University, personal and client work. A filled dot is completed; a hollow one is ongoing.</p>
+      <ol class="log" id="log"></ol>
+    </section>
+
+    <section id="skills" class="block">
+      <h2 class="block__title">Skills</h2>
+      <dl class="skills" id="skill-list"></dl>
+    </section>
+
+    <section id="about" class="block">
+      <h2 class="block__title">About</h2>
+      <div class="about" id="about-text"></div>
+    </section>
+
+    <section id="contact" class="block block--contact">
+      <h2 class="block__title">Contact</h2>
+      <p class="contact__lead">Have a co-op or a project in mind? Write to me.</p>
+      <ul class="contact" id="contact-list"></ul>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>© <span id="year"></span> <span data-bind="name"></span></span>
+    <a href="#">Back to top</a>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
