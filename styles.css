@@ -1,13 +1,13 @@
 :root {
-  --bg: #0a2a48;
-  --panel: #0f3c65;
-  --raised: #164975;
-  --line: #2b5f8e;
-  --text: #fbf7e6;
-  --muted: #b4c6d8;
-  --accent: #fff2ba;
-  --coral: #fff2ba;
-  --on-accent: #0f3c65;
+  --bg: #172b22;
+  --panel: #213d30;
+  --raised: #2a4b3c;
+  --line: #3f6451;
+  --text: #f8f3e8;
+  --muted: #b7c6ba;
+  --accent: #f0e4d0;
+  --coral: #f0e4d0;
+  --on-accent: #213d30;
 
   --display: "Bricolage Grotesque", system-ui, sans-serif;
   --body: "Instrument Sans", system-ui, sans-serif;
