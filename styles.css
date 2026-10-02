@@ -1,13 +1,13 @@
 :root {
-  --bg: #172b22;
-  --panel: #213d30;
-  --raised: #2a4b3c;
-  --line: #3f6451;
-  --text: #f8f3e8;
-  --muted: #b7c6ba;
-  --accent: #f0e4d0;
-  --coral: #f0e4d0;
-  --on-accent: #213d30;
+  --bg: #161e33;
+  --panel: #1f2a44;
+  --raised: #293656;
+  --line: #3d4b6f;
+  --text: #e8dcc8;
+  --muted: #a9afc1;
+  --accent: #c6a75e;
+  --coral: #e8dcc8;
+  --on-accent: #1f2a44;
 
   --display: "Bricolage Grotesque", system-ui, sans-serif;
   --body: "Instrument Sans", system-ui, sans-serif;
@@ -88,6 +88,7 @@ button {
   font-size: 28px;
   letter-spacing: -0.02em;
   overflow: hidden;
+  border: 1px solid var(--line);
 }
 .avatar img {
   width: 100%;
